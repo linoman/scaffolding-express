@@ -41,19 +41,3 @@ router.post('/', function(req, res, next) {
   users.push(newUser);
   res.sendStatus(201);
 });
-
-// AUTHORIZATION -> do you have permission to access a resource/url? (roles)
-// AUTHENTICATION -> is this person who he says he is? (username and password)
-
-module.exports = router;
-"secret_password_please_hash_jt_"
-09384570918732890746109283764 => "93lkj46hn7kj4h56gb7kj45h67ggh"
-09875696847958764958769458769 => "uqywteuyqtwueytqwueytkjnshdfi"
-
-username311:admin1234
-
-username311
-09875696847958764958769458769 => "uqywteuyqtwueytqwueytkjnshdfi"
-username299
-09875696847958764958769458769 => "uqywteuyqtwueytqwueytkjnshdfi"
-
